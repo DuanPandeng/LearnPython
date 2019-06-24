@@ -22,7 +22,7 @@ Fun_dict = {'AEB':1, 'BSD':2, 'LDW':3, 'LCA':4, 'SDO':5, 'AHBC':6, 'FCTA':7, 'RC
 def CreatAuto_LZ_file(f):
 	if not os.path.exists(f):
 		Auto_LZ_ip = []
-		username = input("输入用户名：例如 pandeng.duan@nio.com\n")
+		username = input("输入用户名：例如 ************\n")
 		Auto_LZ_ip.append(username)
 		password= input("输入密码：\n")
 		Auto_LZ_ip.append(password)
@@ -54,7 +54,7 @@ def CreatAuto_LZ_file(f):
 
 def Login_Luna(browser, username, password):
 	browser.implicitly_wait(30)
-	browser.get('http://luna.nioint.com')
+	browser.get('http://########.com')
 	time.sleep(3)
 
 	browser.implicitly_wait(30)
