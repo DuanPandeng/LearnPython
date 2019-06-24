@@ -17,7 +17,7 @@ def login_Zeppelin(username, password, Browser_V):
 	browser_zep = webdriver.Chrome(chrome_options=chrome_options)
 	
 	browser_zep.implicitly_wait(30)
-	browser_zep.get('http://ferdinand.nioint.com/#/')
+	browser_zep.get('http://#########/#/')
 	time.sleep(1)
 	#print("\n正在登录 Zeppelin")
 
