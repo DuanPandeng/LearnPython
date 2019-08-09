@@ -94,12 +94,3 @@ def Browser_zep_Close():
 	global browser_zep
 	browser_zep.quit()
 
-
-if __name__ == '__main__':
-	username = "pandeng.duan"
-	password = "Mynio20190408"
-	vin = '{"MP2-592":"LJ1EEAUU1J7700592","MP2-009":"LJ1EEAUU6J7701009","MP2-215":"LJ1EEAUU9J7701215","MP2-625":"LJ1EEAUU1J7700625","MP2-626":"LJ1EEAUU3J7700626","MP2-627":"LJ1EEAUU5J7700627","MP2-629":"LJ1EEAUU9J7700629","MP2-583":"LJ1EEAUU0J7700583","6TT-016":"LJ1E6A2U7K7700016", "abc":"1"}'
-
-	login_Zeppelin(username,password)
-	Get_Zeppelin_Results(vin, "MP2-592", ["20190527T130913","20190526T213333"], 'http://ferdinand.nioint.com/#/notebook/2E9SCEHU4')
-
