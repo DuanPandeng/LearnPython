@@ -7,8 +7,8 @@ browser = webdriver.Chrome()
 browser.get('http://luna.nioint.com/')
 browser.implicitly_wait(60)
 
-username = browser.find_element_by_id('phone').send_keys('pandeng.duan@nio.com')
-password = browser.find_element_by_id('pwd').send_keys('Mynio20190408')
+username = browser.find_element_by_id('phone').send_keys('XXX@XXX.com')
+password = browser.find_element_by_id('pwd').send_keys('XXXXXXXX')
 button = browser.find_element_by_id('login-button').click()
 time.sleep(1)
 
