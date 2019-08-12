@@ -40,7 +40,7 @@ def CreatAuto_LZ_file(f):
 		Auto_LZ_ip.append(Fun)
 		Skip = input("是否要跳过其它人已经分析过的Tag： Yes/No\n")
 		Auto_LZ_ip.append(Skip)
-		vin = '{"MP2-592":"LJ1EEAUU1J7700592","MP2-009":"LJ1EEAUU6J7701009","MP2-215":"LJ1EEAUU9J7701215","MP2-625":"LJ1EEAUU1J7700625","MP2-626":"LJ1EEAUU3J7700626","MP2-627":"LJ1EEAUU5J7700627","MP2-629":"LJ1EEAUU9J7700629","MP2-583":"LJ1EEAUU0J7700583","6TT-016":"LJ1E6A2U7K7700016"}'
+		vin = '{"MP2-xxx":"LJ1EEAUU1J7700xxx"}'
 		Auto_LZ_ip.append(vin)
 		with open(os.getcwd() + '/Auto_LZ.txt', 'w') as f:
 			f.writelines(x + '\n' for x in Auto_LZ_ip)
@@ -48,7 +48,7 @@ def CreatAuto_LZ_file(f):
 		with open(os.getcwd() + '/Auto_LZ.txt', 'r') as f:
 			Auto_LZ_f = f.readlines()		
 			Auto_LZ_info = [x.strip() for x in Auto_LZ_f]
-			vin = '{"MP2-592":"LJ1EEAUU1J7700592","MP2-009":"LJ1EEAUU6J7701009","MP2-215":"LJ1EEAUU9J7701215","MP2-625":"LJ1EEAUU1J7700625","MP2-626":"LJ1EEAUU3J7700626","MP2-627":"LJ1EEAUU5J7700627","MP2-629":"LJ1EEAUU9J7700629","MP2-583":"LJ1EEAUU0J7700583","6TT-016":"LJ1E6A2U7K7700016"}'
+			vin = '{"MP2-xxx":"LJ1EEAUU1J7700xxx"}'
 			Auto_LZ_info.append(vin)
 	return Auto_LZ_info
 
